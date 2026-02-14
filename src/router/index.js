@@ -13,7 +13,6 @@ const routes = [
 
   { path: '/pstmt', component: PstmtIndex },
 
-  // CSR 라우트 등록
   { path: '/pstmt/csr/cpus', component: PstmtCsrCpuTotal },
   { path: '/pstmt/csr/devices', component: PstmtCsrDeviceTotal },
   { path: '/pstmt/csr/members', component: PstmtCsrMemberTotal },
